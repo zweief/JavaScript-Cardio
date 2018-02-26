@@ -1,0 +1,17 @@
+{
+  "name": "tm-js-cardio",
+  "version": "1.0.0",
+  "description": "My solutions for the JS Cardio tasks from Traversy Media",
+  "main": "index.js",
+  "author": "Florian Frenzel <zweief@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.4.1",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.2"
+  }
+}
