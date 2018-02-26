@@ -6,7 +6,8 @@
   "author": "Florian Frenzel <zweief@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "test": "jest"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -4,7 +4,7 @@
   @returns {(string|Array)}
 **/
 
-function longestWord(str) {
+export function longestWord(str) {
   let stringArr = str
     .match(/\w+/g)
     .sort((a, b) => b.length - a.length)
@@ -12,6 +12,3 @@ function longestWord(str) {
 
   return stringArr.length === 1 ? stringArr[0] : stringArr;
 }
-
-const result = longestWord("Hello world. It is a cold day.");
-result;
