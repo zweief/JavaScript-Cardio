@@ -1,8 +1,8 @@
 /**
   @description Chunk array in chunks of given length
-  @param {array} arr
+  @param {Array} arr
   @param {number} chunks
-  @returns {array}
+  @returns {Array}
 **/
 
 export function chunkArr(arr, chunks) {
